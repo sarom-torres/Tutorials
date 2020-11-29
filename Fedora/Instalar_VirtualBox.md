@@ -6,7 +6,9 @@
 
 * Atualizar sistema.
 
-`dnf update`
+```
+dnf update
+```
 
 * Instalar Qt e SDL para VirtualBox utilizar interface gráfica.
 
@@ -18,8 +20,11 @@ dnf install kernel-devel kernel-headers dkms qt5-qtx11extras elfutils-libelf-dev
 
 * Instalar VirtualBox.
 
-`dnf install <file.rpm>`
+```
+dnf install <file.rpm>
+```
 
 * Durante a instalação o VirtualBox cria um grupo chamado vboxusers. Todos usuários que utilizarão a entrada usb a partir do VirtualBox devem ser incluídos nesse grupo.
-
-`usermod -a -G vboxusers <username>`
+```
+usermod -a -G vboxusers <username>
+```
