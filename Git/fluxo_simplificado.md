@@ -7,7 +7,7 @@ Sugiro que faça a seguinte configuração no git de seu computador (configure u
 
 É possível trabalhar diretamente no ramo master local. Antes, 
 ```bash
-git clone `repositório`
+git clone url-repositório
 
 # trabalhe no relatório
 git add arquivos
