@@ -3,7 +3,6 @@
 ## Instalar VBoxGuestAddition em Ubuntu18.04 Guest 
 
 * Clique em **Dispositivos** > **Inserir imagem de CD dos Adicionais para Convidado**
-![Inserindo imagem iso](/Virutalização)
 
 * Faça a montagem do cdrom com seguinte comando :
 
