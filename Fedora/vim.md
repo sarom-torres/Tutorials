@@ -30,7 +30,15 @@ Comando | Descrição
 **dd** | Deletar linha
 **u** | Desfazer
 **yy** | Copiar texto de uma linha
-**<num_linhas>yy** | Copiar texto de uma quantia específica de linhas 
+**<qt_linhas>yy** | Copiar texto de uma quantia específica de linhas 
 **yw** | Copiar uma palavra
 **y$** | Copiar texto do cursor até final do arquivo
 **p** | Colar texto que foi copiado
+
+## Comandos de busca
+Comando | Descrição
+:-------| :--------
+**/[palavra-chave]** | Procura palavra-chave no documento
+**:s/[palavra-chave]/[nova-palavra]** | Substituir palavra-chave por nova-palavra na linha atual
+**:1,10 s/[palavra-chave]/[nova-palavra]** | Substituir palavra-chave por nova-palavra da linha 1 até a linha 10
+**:1,$ s/[palavra-chave]/[nova-palavra]** | Substituir palavra-chave por nova-palavra da primeira linha até o fim do arquivo
