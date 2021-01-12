@@ -16,7 +16,15 @@ Comando | Descrição
 **:w**|Salvar
 **:x!** ou **:wq** | Salvar e sair
 **:set number** | Mostrar a numeração das linhas
+**0** | Mover o cursor para o início da linha
+**$** | Mover o cursor para o fim da linha
 **:<num_linha>** | Mover o cursor para uma determinada linha
-**:$** | Mover o cursor para o fim do arquivo
 **dd** | Deletar linha
 **u** | Desfazer
+**gg** | Mover o cursor para o início do arquivo
+**:$** ou **G** | Mover o cursor para o fim do arquivo
+**yy** | Copiar texto de uma linha
+**<qtdade_linhas>yy** | Copiar texto de uma quantia específica de linhas 
+**yw** | Copiar uma palavra
+**y$** | Copiar texto do cursor até final do arquivo
+**p** | Colar texto que foi copiado
