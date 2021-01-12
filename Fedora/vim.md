@@ -5,7 +5,7 @@
 Existem diversos tipos de modos de operação no vim, os três modos básicos são:
 - **Normal:** para navegação e edições simples. `ESC`;
 - **Insert:** para inserção explicita e mudanças no texto. `i`;
-- **Linha de comando:** para operação tais como salvar, sair, etc.
+- **Visual:** para identificar trechos de texto. `v`;
 
 ## Comandos básicos
 Comando | Descrição
