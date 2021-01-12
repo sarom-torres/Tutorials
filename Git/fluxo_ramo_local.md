@@ -5,7 +5,7 @@ git clone url-repositório
 
 git checkout -b nome-branch
 
-# trabalhe no relatório
+# edite arquivos
 git add arquivos
 git commit -m "mensagem"
 
