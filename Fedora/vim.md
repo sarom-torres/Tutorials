@@ -30,7 +30,7 @@ Comando | Descrição
 **dd** | Deletar linha
 **u** | Desfazer
 **yy** | Copiar texto de uma linha
-**<qtdade_linhas>yy** | Copiar texto de uma quantia específica de linhas 
+**<num_linhas>yy** | Copiar texto de uma quantia específica de linhas 
 **yw** | Copiar uma palavra
 **y$** | Copiar texto do cursor até final do arquivo
 **p** | Colar texto que foi copiado
