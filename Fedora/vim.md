@@ -28,6 +28,9 @@ Comando | Descrição
 Comando | Descrição
 :-------| :--------
 **dd** | Deletar linha
+**dw** | Deletar palavra
+**daw**| Deletar palavra e espaços antes e depois
+**SHIFT + D** | Deletar do cursor até o final da linha
 **u** | Desfazer
 **yy** | Copiar texto de uma linha
 **<qt_linhas>yy** | Copiar texto de uma quantia específica de linhas 
