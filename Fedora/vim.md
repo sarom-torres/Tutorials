@@ -37,6 +37,8 @@ Comando | Descrição
 **yw** | Copiar uma palavra
 **y$** | Copiar texto do cursor até final do arquivo
 **p** | Colar texto que foi copiado
+**gg=G** | Identar o texto de todo o arquivo
+**=G** | Identar o texto a partir da linha do cursor
 
 ## Comandos de busca
 Comando | Descrição
