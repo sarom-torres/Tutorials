@@ -7,7 +7,7 @@ O Ansible:
 - Espera até que todos os hosts tenham completado ua tarefa antes de iniciar a execução da próxima tarefa.
 - Executa as tarefas na ordem em que foram especificadas.
 
-A sintaxe do Ansible é realizada em YAML, a qual é uma linguagem de formato de dados a qual facilita a leitura e a escrita de comandos para humanos.
+A sintaxe do Ansible é realizada em YAML, a qual é uma linguagem de formato de dados que facilita a leitura e a escrita de comandos para humanos.
 
 
 ## Características do Ansible
@@ -26,3 +26,22 @@ O Ansible procura pelo arquivo `ansible.cfg` nos seguintes lugares e ordem:
 - `.ansible.cfg` (arquivo no diretório atual).
 - `~/.ansible.cfg` (arquivo no diretório `home`).
 - `/etc/ansible/ansible.cfg`
+
+## Comandos Iniciais 
+
+- `-m`: define o módulo que será utilizado.
+- `-b`: para executar o comando como root.
+
+### Executar commandos no servidor remoto
+
+Para executar comandos na CLI do servidor remoto é utilizado o módulo `command`. O comando a ser executado deve ser passado como argumento utilizando a flag `-a`. Conforme exemplo abaixo.
+```
+ansible <name-server> -m command -a <comando>
+```
+O módulo `command` geralmente é usado como módulo _default_, portanto é possível omití-lo durante a execução. Conforme exemplo:
+
+```
+ansible <name-server> -a <"comando com mais de uma palavra">
+```
+ 
+
