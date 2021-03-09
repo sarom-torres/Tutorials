@@ -43,5 +43,26 @@ O módulo `command` geralmente é usado como módulo _default_, portanto é poss
 ```
 ansible <name-server> -a <"comando com mais de uma palavra">
 ```
- 
+## True e Yes em Ansible
 
+**Valores YAML** sinalizados como verdadeiros ou falsos seguem as convenções dessa linguagem, que são:
+
+* YAML - Verdadeiro
+```
+true, True, TRUE, yes, Yes, YES, on, On, ON, y, Y
+```
+* YAML - Falso
+```
+false, False, FALSE, no, No, NO, off, Off, OFF, n, N
+```
+**Argumentos de módulos** são strings e são interpretados conforme convenções pré-determinadas pelo Ansible, que são:
+
+* Argumento do Módulo - Verdadeiro
+```
+yes, on, 1, true
+```
+
+* Argumento do Módulo - Verdadeiro
+```
+no, off, 0, false
+```
