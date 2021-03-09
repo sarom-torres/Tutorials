@@ -62,7 +62,7 @@ false, False, FALSE, no, No, NO, off, Off, OFF, n, N
 yes, on, 1, true
 ```
 
-* Argumento do Módulo - Verdadeiro
+* Argumento do Módulo - Falso
 ```
 no, off, 0, false
 ```
