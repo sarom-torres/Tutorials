@@ -25,7 +25,7 @@ etc
       |__sites-enabled
            |__*.conf
 ```
-- **apache2.conf**: main configuration file. It contains the configuration directives that give the server its instructions.
+- **apache2.conf**: main configuration file. It contains the configuration directives that give the server its instructions. Changes to the main configuration files are only recognized when it is started or restarted.
 - **conf-available**: it contains available configuration files.
 - **conf-enabled**: holds symlinks to the files in `conf-available`. When a configuration file is _symlinked_, it will be enabled the next time apache2 is restarted.
 - **envvars**: where environment variables are set.
