@@ -1,6 +1,6 @@
 # Topics about Apache Server Ubuntu
 
-## Uninstall apache2
+## :wastebasket: Uninstall apache2
 
 ### Checking if apache2 is installed
 
@@ -23,7 +23,7 @@ sudo service apache2 stop
 ```
 3. After that remove and cleanu the apache2 packages:
 ```
-sudo apt-get purge apache2 apache2-utils apache2.2-bin
+sudo apt-get purge apache2 apache2-utils apache2-bin apache2-data
 ```
 4. Run the following command to cleanup the remains packages:
 ```
@@ -37,5 +37,5 @@ Type the following commands:
  Commando         | Success Output  | Unsuccess Output
 ------------------|-----------------|--------------------------
 `which apache2`     | Blank line      | Path where is the apache2
-`sudo service apache2 start` | `apache2: unrecognized service` | Status of the service
+`sudo service apache2 start` | `Failed to start apache2.service: Unit apache2.service not found` | Status of the service
 
