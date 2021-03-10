@@ -1,4 +1,4 @@
-# &#129718; Topics about Apache Server Ubuntu
+# &#129718; Topics about Apache Server Ubuntu &#129718;
 
 ## :wastebasket: Uninstall apache2
 
