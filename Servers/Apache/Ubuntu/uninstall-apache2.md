@@ -1,8 +1,5 @@
 # &#129718; Topics about Apache Server Ubuntu &#129718;
 
-Apache is the most used web server platform in the world. In this tutorial we will learn some basic topics about Apache Server in Ubuntu enviroment.
-
--------------------------------------------------------------
 ## :wastebasket: Uninstall apache2
 
 ### Checking if apache2 is installed
@@ -46,8 +43,6 @@ Type the following commands:
 `which apache2`     | Blank line      | Path where is the apache2
 `sudo service apache2 start` | `Failed to start apache2.service: Unit apache2.service not found` | Status of the service
 
-------------------------------------------------------------------------------------------------------------------------------
-## Installing apache2
 
 
 
