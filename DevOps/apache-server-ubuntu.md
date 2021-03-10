@@ -25,9 +25,13 @@ sudo service apache2 stop
 ```
 sudo apt-get purge apache2 apache2-utils apache2-bin apache2-data
 ```
-4. Run the following command to cleanup the remains packages:
+4. Run the following command to cleanup the remaining packages:
 ```
 sudo apt-get autoremove
+```
+5. Type `whereis apache2` if the output is `apache2: /etc/apache2` remove the remaining directory with:
+```
+sudo rm -rf /etc/apache2
 ```
 
 ### Checking if apache2 has been removed
