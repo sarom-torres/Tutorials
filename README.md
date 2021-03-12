@@ -1,15 +1,20 @@
-# Tutoriais
+# Tutorials
+This is a personal repository to storage data about Operating Systems, Servers, Git, etc...
 
-## Diretórios
+### :wrench: :computer: Debian
+Command lines, installations guides, shortcuts and others stuffs on Debian.
 
-### Fedora
-Contém anotações e comandos usados no sistema operacional Fedora
+### :hammer: DevOps
+Tutorials and annotations about DevOps Tools.
 
-### Debian
-Contém anotações e comandos usados no sistema operacional Debian
+### :wrench: :computer: Fedora 
+Command lines, installations guides, shortcuts and others stuffs on Fedora.
 
-### Git
-Principais comandos git
+### :octocat: Git
+Commands, shortcuts and explanations about git.
 
-### Virtualização
-Contém anotações sobre virtualização
+### :computer: Servers
+Commands, tutorials and explanations about servers.
+
+### :minidisc: Virtualization
+Notes about virtualization.
