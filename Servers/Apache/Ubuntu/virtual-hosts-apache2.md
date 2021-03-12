@@ -51,7 +51,7 @@ With:
 
 ### Useful Commands
 
-To check the virtual host **sintax**.
+To check the Virtual host **sintax**.
 ```
 apachectl configtest
 ```
@@ -71,7 +71,10 @@ To **disable** a specific site.
 ```
 a2dissite <filename>
 ```
-
+To check wich **sites** are enabled and by who:
+```
+a2query -s
+``` 
 
 ## IP-based
 
