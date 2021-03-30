@@ -13,3 +13,12 @@ sudo route -n
 ```
 cat /etc/resolv.conf
 ```
+### List all open ports  
+```
+netstat -lntu
+```
+Where:
+- `-l`: prints only listening sockets
+- `-n`: shows port number
+- `-t`: enables listing of tcp ports
+- `-u`: enables listing of udp ports
