@@ -1,13 +1,13 @@
 # Tutorials
 This is a personal repository to storage data about Operating Systems, Servers, Git, etc...
 
-### :wrench: :computer: Debian
+### :wrench: :penguin: Debian
 Command lines, installations guides, shortcuts and others stuffs on Debian.
 
 ### :hammer: DevOps
 Tutorials and annotations about DevOps Tools.
 
-### :wrench: :computer: Fedora 
+### :wrench: :penguin: Fedora 
 Command lines, installations guides, shortcuts and others stuffs on Fedora.
 
 ### :octocat: Git
