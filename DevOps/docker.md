@@ -11,7 +11,7 @@ docker pull [image-name]
 ```
 docker images
 ```
-### Run an docker image:
+### Run an docker image
 ```
 docker run [image-name]
 ```
@@ -19,4 +19,11 @@ docker run [image-name]
 ```
 docker ps -a
 ```
-
+### Remove an docker image
+```
+docker rmi [image-name-or-id]
+```
+or
+```
+docker image rm [image-name-or-id]
+```
