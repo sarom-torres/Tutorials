@@ -4,7 +4,7 @@
 
 Verificar vendor e modelo de placas de rede.
 ```
-lspci | grep Atheros
+# lspci | grep Atheros
 ``` 
 ou
 ```
@@ -44,7 +44,6 @@ Faça o update de pacotes proprietários
 ```
 Instale o driver `firmware-atheros` com o seguinte comando:
 ```
-sudo apt-get install firmware-atheros
+# apt-get install firmware-atheros
 ```
-
 Reinicie o sistema
