@@ -2,7 +2,11 @@
 
 ## Checando informações da placa
 
-Verificar vendor e modelo de placas de rede
+Verificar vendor e modelo de placas de rede.
+```
+lspci | grep Atheros
+``` 
+ou
 ```
 #  lspci -nnk | grep -iA2 net
 ```
@@ -12,9 +16,9 @@ Logs de update
 # dmesg | grep ath10k
 ```
 
-## Instalação driver de wireless proprietaro Qualcomm
+## Instalação driver de wireless proprietário Qualcomm
 
-Para adicionar os repósitórios non-free na lista abra o arquivo `source.list`:
+Para adicionar os repósitórios _non-free_ na lista abra o arquivo `source.list`:
 
 ```
 # vim /etc/apt/sources.list
@@ -37,5 +41,10 @@ Faça o update de pacotes proprietários
 ```
 # apt update
 # apt list --upgradable -a
-# reboot
 ```
+Instale o driver `firmware-atheros` com o seguinte comando:
+```
+sudo apt-get install firmware-atheros
+```
+
+Reinicie o sistema
