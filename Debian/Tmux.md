@@ -1,6 +1,6 @@
 # Tmux
 
-O **Tmux** é um mutiplexador de terminal que permite executar multitarefas em diferentes sessões.
+> O **Tmux** é um mutiplexador de terminal que permite executar multitarefas em diferentes sessões.
 
 O Tmux é baseado em três ambientes para organizar as tarefas:
 - `Sessões`: ambiente da tarefa global que está sendo executada. 
@@ -36,3 +36,12 @@ sudo yum install tmux
 ### Comandos Internos
 
 > O Tmux é controlado através do comando `CTRL+b`.
+
+- `CTRL+b` `c`: cria uma nova janela.
+- `CTRL+b` `n`: troca para a próxima janela.
+- `CTRL+b` `p`: troca para a janela anterior.
+- `CTRL+b` `,`: renomeia a janela.
+- `CTRL+b` `,`: apresenta uma lista das janelas.
+- `CTRL+b` `&`: fecha a janela atual atual.
+- `CTRL+b` `%`: cria painéis na vertical.
+- `CTRL+b` `"`: cria painéis na horizontal.
