@@ -1,4 +1,5 @@
-## Instalação PIP
+## PIP
+`pip` é uma ferramenta para instalação de pacotes Python que estão no repositório PyPi (Python Package Index).
 
 Para instalar o pip3 use o seguinte comando:
 ```
