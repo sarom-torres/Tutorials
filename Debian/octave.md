@@ -28,6 +28,12 @@ pkg list
 ```
 ## Exemplo de configuração do octave
 
+- Para a instalação de pacotes é necessária a biblioteca `liboctave-dev` no Debian
+```
+sudo apt-get install liboctave-dev
+
+```
+
 - Instalando o pacote `control`, `signal` e `communications` usando o Source Forge:
 ```
 pkg install control -forge
