@@ -24,32 +24,32 @@ $ pip3 show [package-name]
 - pip
 - sites-packages (bibliotecas instalada a partir do PyPI)
 
-Para instalar o virtualenv globalmente:
+- Para instalar o virtualenv globalmente:
 ```
 $ sudo pip3 install virtualenv
 ```
-Criando um novo virtualenv
+- Criar um **novo virtualenv**
 ```
 $ cd ~/[diretorio-projeto]
 $ virtualenv env
 ``` 
-- `env` é, por convenção, o nome do diretório na qual o ambiente virtual será criado `~/[diretorio-projeto]/env/`
-- caso o `git` seja usado, **não** deve ser feito o commit do repositório env.
+  1. `env` é, por convenção, o nome do diretório na qual o ambiente virtual será criado `~/[diretorio-projeto]/env/`
+  2. caso o `git` seja usado, **não** deve ser feito o commit do repositório env.
 
-Para instalar um pacote no virtualenv
+- Para **instalar um pacote** no virtualenv
 ```
 $ env/bin/pip3 install [nome do pacote]
 ```
-Executar script no virtualenv
+- **Executar script** no virtualenv
 ```
 $ env/bin/python3 [script]
 ```
-Para usar o interpretador e o pip do ambiente virtual sem digitar o caminho `env/bin` use:
+- Para usar o interpretador e o pip do ambiente virtual sem digitar o caminho `env/bin` use:
 > Esse comando deve ser executado sempre que o terminal for reiniciado
 ```
 $ source env/bin/activate
 ```
-Para checar qual interpretador ou pip está sendo usado:
+- Para checar qual interpretador ou pip está sendo usado:
 ```
 $ which python   
 /usr/bin/python   ## global
@@ -57,7 +57,7 @@ $ which python
 $ which python   ## ambiente virtual
 /home/user/[diretorio-projeto]/env/bin/python
 ```
-Parar de usar o interpretador e pip de um ambiente virtual:
+- Parar de usar o interpretador e pip de um ambiente virtual:
 ```
 deactivate
 ```
