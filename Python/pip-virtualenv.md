@@ -20,9 +20,9 @@ $ pip3 show [package-name]
 ```
 ## Virtualenv
 `virtualenv` é uma ferramenta pra criar ambientes Python isolados e que contém sua própria cópia de:
-- interpretador python
-- pip
-- sites-packages (bibliotecas instalada a partir do PyPI)
+1. interpretador python
+2. pip
+3. sites-packages (bibliotecas instalada a partir do PyPI)
 
 - Para instalar o virtualenv globalmente:
 ```
