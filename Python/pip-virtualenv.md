@@ -68,5 +68,10 @@ O arquivo `requirements.txt` é usado para instalar as dependências necessária
 ```
 $ env/bin/pip3 install -r requirements.txt
 ```
+Para obter as dependências já instaladas no seu computador e redireciona-las para o `requirements.txt` use o comando abaixo. Note que serão adicionados todos os pacotes instalados no seu computador e não apenas os pertinentes ao projeto 
+``` 
+pip freeze > requirements.txt
+```
+
 ## Referências
 [Tutorial - dabapp](https://www.dabapps.com/blog/introduction-to-pip-and-virtualenv-python/)
