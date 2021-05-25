@@ -6,7 +6,7 @@ pkg install [nome-pkg] -forge
 ```
 Use os parâmetros `-local` ou `-global` para definir o escopo de instalação apenas para o usuário ou para todo o sistema. 
 
-- Instalando pacotes a partir de imagens baixadas. Faça download da imagem no Source Forge e após execute o seguinte comando:
+- Instalando pacotes a partir de imagens baixadas. Faça download da imagem no [Source Forge](https://octave.sourceforge.io/packages.php) e após execute o seguinte comando:
 ```
 pkg install [image-1.0.0.tar.gz]
 ```
