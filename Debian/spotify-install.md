@@ -1,6 +1,6 @@
 # :headphones: How to install a Spotify
 
-### Installing snapd
+## Installing using snapd
 
 It's possible to install **spotify** in Fedora using CLI with **snap**.
 
@@ -30,5 +30,9 @@ $ sudo snap list
 
 Use snap to remove spotify
 ```
-$ sudo snap remove
+$ sudo snap remove spotify
+```
+If you check the list using `snap list` you will see that the spotify is still there and `disabled`. To remove completely run the following comand.
+```
+$ sudo snap remove spotify --revision=[rev-number-column]
 ```
