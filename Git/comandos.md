@@ -5,3 +5,8 @@ Remove arquivos do Git, mas mantemem no repositório local. Em outras palavras, 
 ```
 git rm -r --cached [nome do arquivo]
 ```
+
+### Configurar alias tree
+```
+git config --global alias.tree "log --graph --decorate --pretty=oneline --abbrev-commit
+```
