@@ -1,4 +1,7 @@
 # Arquivo JAR
+Resumo sobre os principais comando para trabalhar com arquivos JAR. [Documentação oficial](https://docs.oracle.com/javase/tutorial/deployment/jar/basicsindex.html)
+![image](https://user-images.githubusercontent.com/34520860/126716194-39dbfe1f-baaf-46dc-8ba5-fc0b3e53a139.png)
+
 
 ## Criando um arquivo JAR
 
