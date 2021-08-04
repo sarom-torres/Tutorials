@@ -9,7 +9,7 @@ $ cd cmake-build-debug
 * Execute duas instâncias do protocolo passando como argumento o nome da porta serial que será utilizada. 
 Cada instância pode ser executada utilizando o seguinte comando.
 ```
-$ /protocol-1 [nome-porta-serial]
+$ ./protocol-1 [nome-porta-serial]
 ```
 
 ## Sequência de operações que serão mostradas durante a execução do protocolo
