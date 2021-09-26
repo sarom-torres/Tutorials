@@ -1,6 +1,7 @@
 # Jupyter Notebook and JupyterLab
 
-## Install and running 
+## Jupyter Notebook
+### Install and running 
 Create a new directory called `jupyter_course`.
 ```
 $ mkdir jupyter_course
@@ -29,5 +30,23 @@ The following message will be prompted with the file location, at the same time 
 | `ESC + y` | Change cell to code type|
 
 
+## Jupyter Lab
+JupyterLab is the next-generation user interface and it has a modular structure, where you can open several notebooks or files as tabs in the same window. 
 
+### Install 
 
+### Install and running 
+Create a new directory called `jupyter_course`.
+```
+$ mkdir jupyter_course
+```
+In this directory create an virtual environment and install `Jupyter Lab`:
+```
+$ virtualenv env
+$ source env/bin/activate
+$ pip install jupyterlab
+```
+After complete installation run the  `Jupyter Lab`.
+```
+$ jupyter lab
+```
