@@ -1,6 +1,6 @@
-## Jupyter Notebook and JupyterLab
+# Jupyter Notebook and JupyterLab
 
-### Install and running 
+## Install and running 
 Create a new directory called `jupyter_course`.
 ```
 $ mkdir jupyter_course
@@ -20,6 +20,13 @@ The following message will be prompted with the file location, at the same time 
 <p align = "center">
 <img src="https://user-images.githubusercontent.com/34520860/134812603-abacc1d5-5c17-42e6-9cec-02bb905391c5.png" alt="location Jupyter" width=600px/>
 </p>
+
+## Jupyter shortcurts
+| Shortcut   |  Description | 
+|:----------:|:-------------|
+| `SHIFT + ENTER` |   Running the cell| 
+| `ESC + m`|   Change cell to markdow type| 
+| `ESC + y` | Change cell to code type|
 
 
 
