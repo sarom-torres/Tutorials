@@ -1,6 +1,7 @@
-# Jupyter Notebook and JupyterLab
+# :ringed_planet: Jupyter Notebook and JupyterLab
 
 ## Jupyter Notebook
+
 ### Install and running 
 Create a new directory called `jupyter_course`.
 ```
@@ -24,7 +25,7 @@ The following message will be prompted with the file location, at the same time 
 
 ## Jupyter shortcurts
 | Shortcut   |  Description | 
-|:----------:|:-------------|
+|:----------|:-------------|
 | `SHIFT + ENTER` |   Running the cell| 
 | `ESC + m`|   Change cell to markdow type| 
 | `ESC + y` | Change cell to code type|
@@ -32,8 +33,6 @@ The following message will be prompted with the file location, at the same time 
 
 ## Jupyter Lab
 JupyterLab is the next-generation user interface and it has a modular structure, where you can open several notebooks or files as tabs in the same window. 
-
-### Install 
 
 ### Install and running 
 Create a new directory called `jupyter_course`.
