@@ -8,7 +8,7 @@ ADB is a command line tool that allow the communication with an Android device t
 
 ADB is included in Android SDK Platform-Tools package.
 
-## Connecting Genymotion and VirtualBox Machine kali
+## Connecting Genymotion and Kali VirtualBox Machine
 
 - In Virtualbox interface, configure `Genymotion` VM to have 2 network adapters: 
   - one of type `NAT` for internet access.
