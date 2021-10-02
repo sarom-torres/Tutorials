@@ -8,6 +8,18 @@ ADB is a command line tool that allow the communication with an Android device t
 
 ADB is included in Android SDK Platform-Tools package.
 
+## Connecting Genymotion and VirtualBox Machine kali
+
+- In Virtualbox interface, configure `Genymotion` VM to have 2 network adapters: 
+  - one of type `NAT` for internet access.
+  - one of type `Host private network`.
+- In Vitualbox interface, configure your `Kali VM` to have a network adapter of type `Host private network`.
+- Start Genymotion, and get its ip address on the Host private network using `adb devices` command.
+- Start your kali VM, and in console execute `adb connect [ip-of-genymotion]:[port]`
+- Then in the Kali console check that adb devices show device connected typing `adb devices`
+
+Now your emulator should be connected to your Kali VM through adb.
+
 ## Troubleshooting
 
 ### :warning: Versão do adb
