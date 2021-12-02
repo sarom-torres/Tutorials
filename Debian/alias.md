@@ -41,3 +41,6 @@ ou
 
 . ~/.bash_aliases
 ```
+---------------------------------
+### Fonte
+[LinOxide](https://linoxide.com/create-remove-alias-linux/)
