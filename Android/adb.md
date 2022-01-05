@@ -15,6 +15,8 @@ ADB is included in Android SDK Platform-Tools package.
   - one of type `Host private network`.
 - In Vitualbox interface, configure your `Kali VM` to have a network adapter of type `Host private network`.
 - Start Genymotion, and get its ip address on the Host private network using `adb devices` command.
+![image](https://user-images.githubusercontent.com/34520860/148214617-717bed22-ad8a-484c-a92c-020b09602a9a.png)
+
 - Start your kali VM, and in console execute `adb connect [ip-of-genymotion]:[port]`
 - Then in the Kali console check that adb devices show device connected typing `adb devices`
 
